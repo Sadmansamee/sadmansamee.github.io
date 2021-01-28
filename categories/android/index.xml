@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/categories/android/</link>
+    <description>Recent content in Android on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seminar: Era of Declarative UI</title>
+      <link>https://sadmansamee.github.io/era_of_declarative_ui/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/era_of_declarative_ui/</guid>
+      <description>Gave a small talk at KotlinConf&#39;19 Global - Dhaka about Declarative UI with Kotlin.
+Era of Declarative UI by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Intelligence in Mobile Applications.</title>
+      <link>https://sadmansamee.github.io/intelligence_mobile_app/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/intelligence_mobile_app/</guid>
+      <description>Machine learning is a cool topic nowadays, people are excited about Google Assistant, Apple Siri, Microsoft Cortana, Amazon Alexa, self-driving cars, robots, even apps like Uber, Snapchat are using Machine Learning to enhance the experience and of course for smart pieces of stuff. If you are interested in building kick-ass apps with intelligence that includes features such as speech recognition, face detection, natural language processing, prediction or anything like that, it&amp;rsquo;s not always an easy option to develop a machine learning system from the ground for any indie developers or small to medium or even for a large team because of it&amp;rsquo;s cost, time (coffee) consumption, therefore, there are many open-source machine learning platforms like Tensorflow Lite, Pytorch, Core ML, services like Dialogflow, Wit.</description>
+    </item>
+    
+    <item>
+      <title>Working with WebRTC</title>
+      <link>https://sadmansamee.github.io/webrtc/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/webrtc/</guid>
+      <description>Anybody who worked with WebRTC will agree that there is a huge lack of learning resources and on top of that on every few years, WebRTC standards changes and changes are big sometimes that makes previous resources outdated, creating more gap.
+ WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. The WebRTC components have been optimized to best serve this purpose.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Kotlin - Why, How and When with Android</title>
+      <link>https://sadmansamee.github.io/kotlin_why_when_how/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/kotlin_why_when_how/</guid>
+      <description>Kotlin - Why, How and When and Android by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Let&#39;s learn Kotlin</title>
+      <link>https://sadmansamee.github.io/lets_learn_kotlin/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/lets_learn_kotlin/</guid>
+      <description>Gave a small presentation at University Seminar to show basics about Kotlin, how it&amp;rsquo;s very easy to learn and follow.
+Let&amp;#x27;s Learn Kotlin by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+  </channel>
+</rss>

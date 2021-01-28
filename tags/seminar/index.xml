@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seminar on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/seminar/</link>
+    <description>Recent content in Seminar on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seminar: Era of Declarative UI</title>
+      <link>https://sadmansamee.github.io/era_of_declarative_ui/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/era_of_declarative_ui/</guid>
+      <description>Gave a small talk at KotlinConf&#39;19 Global - Dhaka about Declarative UI with Kotlin.
+Era of Declarative UI by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Kotlin - Why, How and When with Android</title>
+      <link>https://sadmansamee.github.io/kotlin_why_when_how/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/kotlin_why_when_how/</guid>
+      <description>Kotlin - Why, How and When and Android by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Let&#39;s learn Kotlin</title>
+      <link>https://sadmansamee.github.io/lets_learn_kotlin/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/lets_learn_kotlin/</guid>
+      <description>Gave a small presentation at University Seminar to show basics about Kotlin, how it&amp;rsquo;s very easy to learn and follow.
+Let&amp;#x27;s Learn Kotlin by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+  </channel>
+</rss>

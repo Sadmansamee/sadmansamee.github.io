@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutter on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/categories/flutter/</link>
+    <description>Recent content in Flutter on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/categories/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Must have tools for a Flutter dev</title>
+      <link>https://sadmansamee.github.io/tools_for_flutter_dev/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/tools_for_flutter_dev/</guid>
+      <description>I&amp;rsquo;m enlisting the most usefull and popular tools for development with Flutter. undoubtedly , these will boost your productivity by a 110% !
+Codemagic CI/CD Codemagic CI/CD is an excellent service for CI/CD especially made for Flutter. And free tier is more than enough for small to medium level.
+Dartpad Dartpad is an online editor for dart and Flutter, it&amp;rsquo;s really use to try out simple snippets or share snippets with others by any means.</description>
+    </item>
+    
+    <item>
+      <title>Why are we embracing Flutter in our team?</title>
+      <link>https://sadmansamee.github.io/why_embrace_flutter/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/why_embrace_flutter/</guid>
+      <description>The Simple answer is to make our life easier, for details keep reading!
+I work at a start-up. And like any other start-up, it has that typical start-up workload and crazy requirements that we need to meet along with
+ Faster Delivery . Lack of resources. Frequent feature request. Experimental features. And off-course, technical debt.  we have two codebases for two platforms (Android, iOS) written in Objective-C, Java and partially(new features) Kotlin and Swift.</description>
+    </item>
+    
+    <item>
+      <title>Flutter State Management Approach</title>
+      <link>https://sadmansamee.github.io/flutter_state_management/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/flutter_state_management/</guid>
+      <description>When it comes to choose any architecture, design pattern or this kind of similar kinds of things it always comes down to preference, choice, need and applicable scenario and most of the writings ends with up with a solution that is very confusing, and most of the cases pros and con, applicable scenario aren&amp;rsquo;t described. Here I&amp;rsquo;m trying to describe a bit according to my little research and knowledge.
+List of state management approaches</description>
+    </item>
+    
+    <item>
+      <title>Working with WebRTC</title>
+      <link>https://sadmansamee.github.io/webrtc/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/webrtc/</guid>
+      <description>Anybody who worked with WebRTC will agree that there is a huge lack of learning resources and on top of that on every few years, WebRTC standards changes and changes are big sometimes that makes previous resources outdated, creating more gap.
+ WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. The WebRTC components have been optimized to best serve this purpose.</description>
+    </item>
+    
+    <item>
+      <title>Install Flutter via Homebrew.</title>
+      <link>https://sadmansamee.github.io/install_flutter_brew/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/install_flutter_brew/</guid>
+      <description>After the first release Flutter is being too obvious to avoid it, lots of people are talking about flutter, and the technology behind it is interesting enough to check out. I liked how it performs(a lot faster than other cross-platform competitors), documentation is also good, so I decided to give it a try. But I&amp;rsquo;m not fully satisfied with the installation procedure, You have to read a few paragraphs to just install but that could have been done through Homebrew / APT / Nuget or whatever(any other package manager) However unofficially it is possible to install Flutter through Homebrew on Mac.</description>
+    </item>
+    
+  </channel>
+</rss>

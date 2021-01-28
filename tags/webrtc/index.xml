@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebRTC on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/webrtc/</link>
+    <description>Recent content in WebRTC on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/webrtc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with WebRTC</title>
+      <link>https://sadmansamee.github.io/webrtc/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/webrtc/</guid>
+      <description>Anybody who worked with WebRTC will agree that there is a huge lack of learning resources and on top of that on every few years, WebRTC standards changes and changes are big sometimes that makes previous resources outdated, creating more gap.
+ WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. The WebRTC components have been optimized to best serve this purpose.</description>
+    </item>
+    
+  </channel>
+</rss>

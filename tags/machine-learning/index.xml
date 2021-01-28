@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intelligence in Mobile Applications.</title>
+      <link>https://sadmansamee.github.io/intelligence_mobile_app/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/intelligence_mobile_app/</guid>
+      <description>Machine learning is a cool topic nowadays, people are excited about Google Assistant, Apple Siri, Microsoft Cortana, Amazon Alexa, self-driving cars, robots, even apps like Uber, Snapchat are using Machine Learning to enhance the experience and of course for smart pieces of stuff. If you are interested in building kick-ass apps with intelligence that includes features such as speech recognition, face detection, natural language processing, prediction or anything like that, it&amp;rsquo;s not always an easy option to develop a machine learning system from the ground for any indie developers or small to medium or even for a large team because of it&amp;rsquo;s cost, time (coffee) consumption, therefore, there are many open-source machine learning platforms like Tensorflow Lite, Pytorch, Core ML, services like Dialogflow, Wit.</description>
+    </item>
+    
+  </channel>
+</rss>

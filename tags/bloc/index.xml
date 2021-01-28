@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bloc on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/bloc/</link>
+    <description>Recent content in bloc on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/bloc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter State Management Approach</title>
+      <link>https://sadmansamee.github.io/flutter_state_management/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/flutter_state_management/</guid>
+      <description>When it comes to choose any architecture, design pattern or this kind of similar kinds of things it always comes down to preference, choice, need and applicable scenario and most of the writings ends with up with a solution that is very confusing, and most of the cases pros and con, applicable scenario aren&amp;rsquo;t described. Here I&amp;rsquo;m trying to describe a bit according to my little research and knowledge.
+List of state management approaches</description>
+    </item>
+    
+  </channel>
+</rss>

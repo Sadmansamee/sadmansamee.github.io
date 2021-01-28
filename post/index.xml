@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All Posts on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/post/</link>
+    <description>Recent content in All Posts on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://sadmansamee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Must have tools for a Flutter dev</title>
+      <link>https://sadmansamee.github.io/tools_for_flutter_dev/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/tools_for_flutter_dev/</guid>
+      <description>I&amp;rsquo;m enlisting the most usefull and popular tools for development with Flutter. undoubtedly , these will boost your productivity by a 110% !
+Codemagic CI/CD Codemagic CI/CD is an excellent service for CI/CD especially made for Flutter. And free tier is more than enough for small to medium level.
+Dartpad Dartpad is an online editor for dart and Flutter, it&amp;rsquo;s really use to try out simple snippets or share snippets with others by any means.</description>
+    </item>
+    
+    <item>
+      <title>(How to) Be an Intermediate iOS dev in 2020</title>
+      <link>https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/</guid>
+      <description>A beginner or associate level needs to know just to do something but to become an intermediate level you need to be able to do a certain thing in a certain way following best practices. I tried to list some of the things that an intermediate iOS dev should know about.
+Advanced knowledge in the language(Swift/Obj-C) An intermediate iOS dev should have basic fundamental knowledge along with advanced and deep knowledge in languages, preferably in Swift.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Era of Declarative UI</title>
+      <link>https://sadmansamee.github.io/era_of_declarative_ui/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/era_of_declarative_ui/</guid>
+      <description>Gave a small talk at KotlinConf&#39;19 Global - Dhaka about Declarative UI with Kotlin.
+Era of Declarative UI by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Why are we embracing Flutter in our team?</title>
+      <link>https://sadmansamee.github.io/why_embrace_flutter/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/why_embrace_flutter/</guid>
+      <description>The Simple answer is to make our life easier, for details keep reading!
+I work at a start-up. And like any other start-up, it has that typical start-up workload and crazy requirements that we need to meet along with
+ Faster Delivery . Lack of resources. Frequent feature request. Experimental features. And off-course, technical debt.  we have two codebases for two platforms (Android, iOS) written in Objective-C, Java and partially(new features) Kotlin and Swift.</description>
+    </item>
+    
+    <item>
+      <title>Flutter State Management Approach</title>
+      <link>https://sadmansamee.github.io/flutter_state_management/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/flutter_state_management/</guid>
+      <description>When it comes to choose any architecture, design pattern or this kind of similar kinds of things it always comes down to preference, choice, need and applicable scenario and most of the writings ends with up with a solution that is very confusing, and most of the cases pros and con, applicable scenario aren&amp;rsquo;t described. Here I&amp;rsquo;m trying to describe a bit according to my little research and knowledge.
+List of state management approaches</description>
+    </item>
+    
+    <item>
+      <title>A Caching Library, written in Swift that can cache Anything.</title>
+      <link>https://sadmansamee.github.io/cachy/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/cachy/</guid>
+      <description>Needed a cache Library that has
+ Asynchronous data downloading and caching. Asynchronous image downloading, caching and showing. Expiry date/time for all the objects individually. Multiple-layer hybrid cache for both memory and disk. Fine control on cache behavior. Customizable expiration date and size limit. Force refresh if needed. Independent components. Use the Cachy or CachyLoader system separately as you need. Can save JSON, UIImage, ZIP or anything. View extensions for UIImageView.</description>
+    </item>
+    
+    <item>
+      <title>Intelligence in Mobile Applications.</title>
+      <link>https://sadmansamee.github.io/intelligence_mobile_app/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/intelligence_mobile_app/</guid>
+      <description>Machine learning is a cool topic nowadays, people are excited about Google Assistant, Apple Siri, Microsoft Cortana, Amazon Alexa, self-driving cars, robots, even apps like Uber, Snapchat are using Machine Learning to enhance the experience and of course for smart pieces of stuff. If you are interested in building kick-ass apps with intelligence that includes features such as speech recognition, face detection, natural language processing, prediction or anything like that, it&amp;rsquo;s not always an easy option to develop a machine learning system from the ground for any indie developers or small to medium or even for a large team because of it&amp;rsquo;s cost, time (coffee) consumption, therefore, there are many open-source machine learning platforms like Tensorflow Lite, Pytorch, Core ML, services like Dialogflow, Wit.</description>
+    </item>
+    
+    <item>
+      <title>Working with WebRTC</title>
+      <link>https://sadmansamee.github.io/webrtc/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/webrtc/</guid>
+      <description>Anybody who worked with WebRTC will agree that there is a huge lack of learning resources and on top of that on every few years, WebRTC standards changes and changes are big sometimes that makes previous resources outdated, creating more gap.
+ WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs. The WebRTC components have been optimized to best serve this purpose.</description>
+    </item>
+    
+    <item>
+      <title>Keep your iOS projects healthy</title>
+      <link>https://sadmansamee.github.io/keep_ios_projects_healthy/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/keep_ios_projects_healthy/</guid>
+      <description>Keeping your code and projects is the best thing you can do to your projects and here’s how to do it your iOS projects written in swift.
+Following style guide There are several style guide for writing swift, and every team member should follow them well. Such as
+ Raywinderlich style guide Linkedin style guide Google style guide  Using tools In reality not everyone does it properly so there should be a way to enforce it amongst team members, a way of doing is manual code review which is very time-consuming and code review should happen in logic level not how a developer should declare variable or indentation, we could simple automate these things and invest our time more on harder things.</description>
+    </item>
+    
+    <item>
+      <title>Install Flutter via Homebrew.</title>
+      <link>https://sadmansamee.github.io/install_flutter_brew/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/install_flutter_brew/</guid>
+      <description>After the first release Flutter is being too obvious to avoid it, lots of people are talking about flutter, and the technology behind it is interesting enough to check out. I liked how it performs(a lot faster than other cross-platform competitors), documentation is also good, so I decided to give it a try. But I&amp;rsquo;m not fully satisfied with the installation procedure, You have to read a few paragraphs to just install but that could have been done through Homebrew / APT / Nuget or whatever(any other package manager) However unofficially it is possible to install Flutter through Homebrew on Mac.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Kotlin - Why, How and When with Android</title>
+      <link>https://sadmansamee.github.io/kotlin_why_when_how/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/kotlin_why_when_how/</guid>
+      <description>Kotlin - Why, How and When and Android by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Let&#39;s learn Kotlin</title>
+      <link>https://sadmansamee.github.io/lets_learn_kotlin/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/lets_learn_kotlin/</guid>
+      <description>Gave a small presentation at University Seminar to show basics about Kotlin, how it&amp;rsquo;s very easy to learn and follow.
+Let&amp;#x27;s Learn Kotlin by sadman samee tonmoy on Scribd</description>
+    </item>
+    
+  </channel>
+</rss>

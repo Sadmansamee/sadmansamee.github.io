@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>library on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/library/</link>
+    <description>Recent content in library on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/library/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Caching Library, written in Swift that can cache Anything.</title>
+      <link>https://sadmansamee.github.io/cachy/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/cachy/</guid>
+      <description>Needed a cache Library that has
+ Asynchronous data downloading and caching. Asynchronous image downloading, caching and showing. Expiry date/time for all the objects individually. Multiple-layer hybrid cache for both memory and disk. Fine control on cache behavior. Customizable expiration date and size limit. Force refresh if needed. Independent components. Use the Cachy or CachyLoader system separately as you need. Can save JSON, UIImage, ZIP or anything. View extensions for UIImageView.</description>
+    </item>
+    
+  </channel>
+</rss>

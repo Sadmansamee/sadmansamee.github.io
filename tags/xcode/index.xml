@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xcode on Thoughtful Texts</title>
+    <link>https://sadmansamee.github.io/tags/xcode/</link>
+    <description>Recent content in xcode on Thoughtful Texts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keep your iOS projects healthy</title>
+      <link>https://sadmansamee.github.io/keep_ios_projects_healthy/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/keep_ios_projects_healthy/</guid>
+      <description>Keeping your code and projects is the best thing you can do to your projects and here’s how to do it your iOS projects written in swift.
+Following style guide There are several style guide for writing swift, and every team member should follow them well. Such as
+ Raywinderlich style guide Linkedin style guide Google style guide  Using tools In reality not everyone does it properly so there should be a way to enforce it amongst team members, a way of doing is manual code review which is very time-consuming and code review should happen in logic level not how a developer should declare variable or indentation, we could simple automate these things and invest our time more on harder things.</description>
+    </item>
+    
+  </channel>
+</rss>
