@@ -386,6 +386,56 @@
           
           
           
+          <a href="#lets-start">
+            Let’s start
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#create-a-new-branch">
+            Create a new branch
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#dependency-upgrade">
+            Dependency upgrade
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#migration">
+            Migration
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#code-improvement">
+            Code Improvement
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
           <a href="#test">
             Test
           </a>
@@ -413,13 +463,13 @@
 <p>But in reality it&rsquo;s not that straight forward as it sounds for a medium to big projects, also there might be lots of third party dependencies and tool may produce lots of compile error (atleast it happened with me).</p>
 <p>I have waited few months before migrating to null safety for reasons like most of my depedency were not compatible with null safety yet when Flutter 2 just got released and I wanted to see how other people are doing, what kind of problem they face and how that can be solved.</p>
 <p>Now is good time to migrate to null safety as most of the popular dependecies already has support for null safety.</p>
-<h1 id="lets-start">Let&rsquo;s start</h1>
+<h2 id="lets-start">Let&rsquo;s start</h2>
 <p>To make the process smother we will go through the migration process step by step.</p>
-<h3 id="create-a-new-branch">Create a new branch</h3>
+<h2 id="create-a-new-branch">Create a new branch</h2>
 <pre><code>git checkout -b null-safety
 </code></pre>
 <p>and make sure to commit after each step.</p>
-<h3 id="dependency-upgrade">Dependency upgrade</h3>
+<h2 id="dependency-upgrade">Dependency upgrade</h2>
 <p>Before migrating to null safety, it&rsquo;s better to upgrade all the dependencies first.</p>
 <pre><code>dart pub outdated --mode=null-safety
 
@@ -443,7 +493,7 @@ pod repo update
 <pre><code>platform :ios, '10.0'
 </code></pre>
 <p><em>Make sure to commit before proceding to the next step.</em></p>
-<h3 id="migration">Migration</h3>
+<h2 id="migration">Migration</h2>
 <p>Now run</p>
 <pre><code>dart migrate
 </code></pre>
@@ -461,7 +511,7 @@ pod repo update
 </code></pre>
 <p>After fixing all those errors, run the app to see everything works or not. If not find and fix those issues as well.</p>
 <p><em>Make sure to commit before proceding to the next step.</em></p>
-<h3 id="code-improvement">Code Improvement</h3>
+<h2 id="code-improvement">Code Improvement</h2>
 <p>As entire codebases is going through changes, it&rsquo;s better make the entire codebase healthy as much as possible, there might be deprecated codes, improper formating, linting issue. For that Flutter team provides excellent tool called <a href="https://flutter.dev/docs/development/tools/flutter-fix">Flutter Fix</a>.</p>
 <p>To run the tool project wise from project root folder to changes</p>
 <pre><code>dart fix --dry-run
