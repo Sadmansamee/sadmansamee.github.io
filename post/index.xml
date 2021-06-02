@@ -126,5 +126,25 @@ Following style guide There are several style guide for writing swift, and every
 Let&amp;#x27;s Learn Kotlin by sadman samee tonmoy on Scribd</description>
     </item>
     
+    <item>
+      <title>Freezed for Bloc, Riverpod or provider</title>
+      <link>https://sadmansamee.github.io/freezed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/freezed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrate to Flutter Null Safety</title>
+      <link>https://sadmansamee.github.io/flutter_null_safety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/flutter_null_safety/</guid>
+      <description>Null safety is the solution to the billion doller mistake and it&amp;rsquo;s available for Flutter as well, why live with billion doller mistake anymore!
+As null safety is available with Flutter 2.0 It comes with pretty handy migration guide and can simply use the tool to migrate to null safety nicely.
+But in reality it&amp;rsquo;s not that straight forward as it sounds for a medium to big projects, also there might be lots of third party dependencies and tool may produce lots of compile error (atleast it happened with me).</description>
+    </item>
+    
   </channel>
 </rss>

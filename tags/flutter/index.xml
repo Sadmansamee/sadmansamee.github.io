@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>flutter on Thoughtful Texts</title>
+    <title>Flutter on Thoughtful Texts</title>
     <link>https://sadmansamee.github.io/tags/flutter/</link>
-    <description>Recent content in flutter on Thoughtful Texts</description>
+    <description>Recent content in Flutter on Thoughtful Texts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
@@ -46,6 +46,26 @@ List of state management approaches</description>
       
       <guid>https://sadmansamee.github.io/install_flutter_brew/</guid>
       <description>After the first release Flutter is being too obvious to avoid it, lots of people are talking about flutter, and the technology behind it is interesting enough to check out. I liked how it performs(a lot faster than other cross-platform competitors), documentation is also good, so I decided to give it a try. But I&amp;rsquo;m not fully satisfied with the installation procedure, You have to read a few paragraphs to just install but that could have been done through Homebrew / APT / Nuget or whatever(any other package manager) However unofficially it is possible to install Flutter through Homebrew on Mac.</description>
+    </item>
+    
+    <item>
+      <title>Freezed for Bloc, Riverpod or provider</title>
+      <link>https://sadmansamee.github.io/freezed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/freezed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrate to Flutter Null Safety</title>
+      <link>https://sadmansamee.github.io/flutter_null_safety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadmansamee.github.io/flutter_null_safety/</guid>
+      <description>Null safety is the solution to the billion doller mistake and it&amp;rsquo;s available for Flutter as well, why live with billion doller mistake anymore!
+As null safety is available with Flutter 2.0 It comes with pretty handy migration guide and can simply use the tool to migrate to null safety nicely.
+But in reality it&amp;rsquo;s not that straight forward as it sounds for a medium to big projects, also there might be lots of third party dependencies and tool may produce lots of compile error (atleast it happened with me).</description>
     </item>
     
   </channel>

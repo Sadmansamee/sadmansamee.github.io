@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.83.1" />
-  <link rel="canonical" href="https://sadmansamee.github.io/tags/ios/">
+  <link rel="canonical" href="https://sadmansamee.github.io/flutter_null_safety/">
 
   
 
@@ -21,20 +21,29 @@
 
 
 
-<meta property="og:title" content="iOS">
+<meta property="og:title" content="Migrate to Flutter Null Safety">
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="0001-01-01">
 
-<meta property="og:description" content="">
-<meta property="og:url" content="https://sadmansamee.github.io/tags/ios/">
+<meta property="og:description" content="How to safely migrate to null safety">
+<meta property="og:url" content="https://sadmansamee.github.io/flutter_null_safety/">
 <meta property="og:site_name" content="Thoughtful Texts">
 
+<meta property="og:image" content="https://sadmansamee.github.io/https://miro.medium.com/max/3252/1*pnpiWCwxgIXmjQbelej4dA.png">
+
+
+<meta property="og:tags" content="Flutter">
+
+<meta property="og:tags" content="Dart">
 
 
 
 
-<meta property="twitter:description" content="">
-<meta property="twitter:title" content="iOS">
+<meta property="twitter:description" content="How to safely migrate to null safety">
+<meta property="twitter:title" content="Migrate to Flutter Null Safety">
+
+<meta property="twitter:image" content="https://sadmansamee.github.io/https://miro.medium.com/max/3252/1*pnpiWCwxgIXmjQbelej4dA.png">
 
 
 
@@ -52,7 +61,7 @@
 
   
   
-  <title>iOS | Thoughtful Texts</title>
+  <title>Migrate to Flutter Null Safety | Thoughtful Texts</title>
 </head>
 
   <body>
@@ -250,7 +259,7 @@
       
       
       
-      <a href="/categories/ios/" aria-current="page">
+      <a href="/categories/ios/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -315,7 +324,7 @@
       
       
       
-      <a href="/tags/" aria-current="page">
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -344,50 +353,169 @@
         <div>
           
   <main id="main">
-    <h1>iOS</h1>
-    <ul class="patterns-list">
-    
-      <li>
-        <h2>
-          <a href="https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/">
-            
-              
-            
-            (How to) Be an Intermediate iOS dev in 2020
-          </a>
-        </h2>
-        <small>How to be an Intermediate iOS dev in 2020</small>
+    <h1>
+      
+      Migrate to Flutter Null Safety
+    </h1>
+    <small>How to safely migrate to null safety</small>
 
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://sadmansamee.github.io/cachy/">
-            
-              
-            
-            A Caching Library, written in Swift that can cache Anything.
-          </a>
-        </h2>
-        <small>A Caching Library, written in Swift that can cache JSON, Image, Zip or anything with expiry date and force refresh.</small>
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>January 1, 0001
+      
+        
+          <br>
+          <strong aria-hidden="true">Last updated: </strong>June 2, 2021
+        
+      
+    </div>
 
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://sadmansamee.github.io/keep_ios_projects_healthy/">
-            
-              
-            
-            Keep your iOS projects healthy
-          </a>
-        </h2>
-        <small>How to keep iOS codebase nice</small>
+    <strong aria-hidden="true">Reading time: </strong> 3 minutes
 
-      </li>        
     
-    </ul>
+    
+      
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#test">
+            Test
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#resources">
+            Resources
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
+
+
+    
+
+    <p>Null safety is the solution to the <a href="https://en.wikipedia.org/wiki/Tony_Hoare">billion doller mistake</a> and it&rsquo;s available for Flutter as well, why live with <a href="https://en.wikipedia.org/wiki/Tony_Hoare">billion doller mistake</a> anymore!</p>
+<p>As null safety is available with Flutter 2.0 It comes with pretty handy <a href="https://dart.dev/null-safety/migration-guide">migration guide</a> and can simply use the tool to migrate to null safety nicely.</p>
+<p>But in reality it&rsquo;s not that straight forward as it sounds for a medium to big projects, also there might be lots of third party dependencies and tool may produce lots of compile error (atleast it happened with me).</p>
+<p>I have waited few months before migrating to null safety for reasons like most of my depedency were not compatible with null safety yet when Flutter 2 just got released and I wanted to see how other people are doing, what kind of problem they face and how that can be solved.</p>
+<p>Now is good time to migrate to null safety as most of the popular dependecies already has support for null safety.</p>
+<h1 id="lets-start">Let&rsquo;s start</h1>
+<p>To make the process smother we will go through the migration process step by step.</p>
+<h3 id="create-a-new-branch">Create a new branch</h3>
+<pre><code>git checkout -b null-safety
+</code></pre>
+<p>and make sure to commit after each step.</p>
+<h3 id="dependency-upgrade">Dependency upgrade</h3>
+<p>Before migrating to null safety, it&rsquo;s better to upgrade all the dependencies first.</p>
+<pre><code>dart pub outdated --mode=null-safety
+
+</code></pre>
+<p>I would rather wait for sometime if majority of the dependencies doesn&rsquo;t have null safety support.</p>
+<p>and if dependencies have null safety support then run</p>
+<pre><code>dart pub upgrade --null-safety
+</code></pre>
+<p>then simply run</p>
+<pre><code>flutter pub get
+</code></pre>
+<p>now check if project has any compile error or not and if app properly run or not.</p>
+<pre><code>flutter analyze
+</code></pre>
+<p>If there are any error fix it and run the project. And for iOS you may need to refresh <strong>pods</strong>, to do that</p>
+<pre><code>cd ios
+rm Podfile.lock
+pod repo update
+</code></pre>
+<p>also delete derived data and make sure for iOS&rsquo;s minimum deployment target of <strong>iOS 10.0</strong> on XCode project and on Podfile</p>
+<pre><code>platform :ios, '10.0'
+</code></pre>
+<p><em>Make sure to commit before proceding to the next step.</em></p>
+<h3 id="migration">Migration</h3>
+<p>Now run</p>
+<pre><code>dart migrate
+</code></pre>
+<p>follow the steps there and it should provide an URL and on there check if the tool correctly migrated or not, if everything is good then apply changes.</p>
+<p>Now you should have if not many atleast few compile errors, go through them and fix them individually one by one, such as</p>
+<ol>
+<li>A variable was wrongly made nullable.</li>
+<li>A function parametre takes non null value but nullable value was provided</li>
+<li>A variable was declared as late but later it wasn&rsquo;t initialized properly.</li>
+<li>A vairable is nullable but the tool made it required.</li>
+</ol>
+<p>It&rsquo;s better to go through by the entire project&rsquo;s codebase.</p>
+<p>After fixing those now run</p>
+<pre><code>flutter analyze
+</code></pre>
+<p>After fixing all those errors, run the app to see everything works or not. If not find and fix those issues as well.</p>
+<p><em>Make sure to commit before proceding to the next step.</em></p>
+<h3 id="code-improvement">Code Improvement</h3>
+<p>As entire codebases is going through changes, it&rsquo;s better make the entire codebase healthy as much as possible, there might be deprecated codes, improper formating, linting issue. For that Flutter team provides excellent tool called <a href="https://flutter.dev/docs/development/tools/flutter-fix">Flutter Fix</a>.</p>
+<p>To run the tool project wise from project root folder to changes</p>
+<pre><code>dart fix --dry-run
+</code></pre>
+<p>and to apply changes</p>
+<pre><code>dart fix --apply
+</code></pre>
+<p>Now the project is ready to test.</p>
+<h2 id="test">Test</h2>
+<p>Once all the code changes are done and there no more issues left it&rsquo;s better to check if all the features correctly works or not.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://dart.dev/null-safety/faq">Null safety: Frequently asked questions</a></li>
+<li><a href="https://www.youtube.com/watch?v=bvq7wbn4VAA">Let&rsquo;s migrate this app to null safety</a></li>
+<li><a href="https://dart.dev/null-safety">Sound null safety</a></li>
+<li><a href="https://dart.dev/null-safety/understanding-null-safety">Understanding null safety</a></li>
+<li><a href="https://medium.com/flutterdevs/null-safety-support-for-flutter-dart-e25cb31ad5c8">Null Safety Support For Flutter &amp; Dart</a></li>
+</ul>
+
   </main>
+  <div id="disqus-container">
+  
+    <button id="disqus-button" onclick="showComments()">Show comments</button>
+    <div id="disqus-comments">
+      
+      
+      
+        <div id="disqus_thread">
+        </div>
+        <script type="application/javascript">
+          function showComments() {
+            // Config
+var disqus_config = function () {
+};
+// Build and append comments 
+var d = document;
+var s = d.createElement('script');
+s.async = true;
+s.src = '//' + "sadmansamee" + '.disqus.com/embed.js';
+s.setAttribute('data-timestamp', + new Date());
+(d.head || d.body).appendChild(s);
+            // Remove button
+var disqusButton = document.getElementById('disqus-button');
+disqusButton.parentNode.removeChild(disqusButton); 
+// Un-hide comments
+var disqusComments = document.getElementById('disqus-comments');
+disqusComments.style.display = 'block'; 
+          }
+        </script>
+      
+      <noscript>Enable JavaScript to view Disqus comments.</noscript>
+    </div>
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

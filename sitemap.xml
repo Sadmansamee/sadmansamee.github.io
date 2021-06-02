@@ -1,205 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sadmansamee.github.io/categories/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sadmansamee.github.io/categories/dart/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/dart/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sadmansamee.github.io/categories/flutter/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
+    <loc>https://sadmansamee.github.io/categories/dart/</loc>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/flutter/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
+    <loc>https://sadmansamee.github.io/categories/flutter/</loc>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
     <loc>https://sadmansamee.github.io/tools_for_flutter_dev/</loc>
     <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
     <loc>https://sadmansamee.github.io/</loc>
-    <lastmod>2020-06-11T11:51:30+06:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
     <loc>https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/</loc>
     <lastmod>2020-02-17T11:27:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/ios/</loc>
     <lastmod>2020-02-17T11:27:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/ios/</loc>
     <lastmod>2020-02-17T11:27:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/swift/</loc>
     <lastmod>2020-02-17T11:27:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/swift/</loc>
     <lastmod>2020-02-17T11:27:29+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/android/</loc>
     <lastmod>2020-02-08T23:46:42+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/android/</loc>
     <lastmod>2020-02-08T23:46:42+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/seminar/</loc>
     <lastmod>2020-02-08T23:46:42+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/seminar/</loc>
     <lastmod>2020-02-08T23:46:42+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/era_of_declarative_ui/</loc>
     <lastmod>2020-02-08T23:46:42+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/why_embrace_flutter/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/bloc/</loc>
     <lastmod>2019-12-18T14:24:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/flutter_state_management/</loc>
     <lastmod>2019-12-18T14:24:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/mobile/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/cachy/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/categories/ai/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/ai/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/intelligence_mobile_app/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/library/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/machine-learning/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/tensorflow/</loc>
     <lastmod>2019-12-18T20:08:25+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/webrtc/</loc>
     <lastmod>2019-12-16T20:03:26+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/webrtc/</loc>
     <lastmod>2019-12-16T20:03:26+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/keep_ios_projects_healthy/</loc>
     <lastmod>2019-12-28T19:17:57+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/obj-c/</loc>
     <lastmod>2019-12-28T19:17:57+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/xcode/</loc>
     <lastmod>2019-12-28T19:17:57+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/install_flutter_brew/</loc>
     <lastmod>2020-02-23T14:19:22+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/tags/kotlin/</loc>
     <lastmod>2020-02-08T16:26:18+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/kotlin_why_when_how/</loc>
     <lastmod>2020-02-08T16:26:18+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/lets_learn_kotlin/</loc>
     <lastmod>2020-02-08T16:26:18+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/about/</loc>
     <lastmod>2020-02-24T21:30:59+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sadmansamee.github.io/post/</loc>
     <lastmod>2019-12-16T10:30:06+06:00</lastmod>
+  </url><url>
+    <loc>https://sadmansamee.github.io/freezed/</loc>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
+  </url><url>
+    <loc>https://sadmansamee.github.io/flutter_null_safety/</loc>
+    <lastmod>2021-06-02T21:48:03+06:00</lastmod>
   </url>
-  
 </urlset>
