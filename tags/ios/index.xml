@@ -8,13 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sadmansamee.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(How to) Be an Intermediate iOS dev in 2020</title>
+      <title>(How to) Be an Intermediate iOS dev in 2021</title>
       <link>https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sadmansamee.github.io/how_to_be_intermediate_ios_dev/</guid>
       <description>A beginner or associate level needs to know just to do something but to become an intermediate level you need to be able to do a certain thing in a certain way following best practices. I tried to list some of the things that an intermediate iOS dev should know about.
-Advanced knowledge in the language(Swift/Obj-C) An intermediate iOS dev should have basic fundamental knowledge along with advanced and deep knowledge in languages, preferably in Swift.</description>
+SwiftUI and Combine SwiftUI and Combine is the latest and most exciting thing in Apple Development ecosystem, these are excellent frameworks.</description>
     </item>
     
     <item>

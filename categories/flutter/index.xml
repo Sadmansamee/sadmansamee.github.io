@@ -35,9 +35,9 @@ Dartpad Dartpad is an online editor for dart and Flutter, it&amp;rsquo;s really 
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sadmansamee.github.io/why_embrace_flutter/</guid>
-      <description>The Simple answer is to make our life easier, for details keep reading!
-I work at a start-up. And like any other start-up, it has that typical start-up workload and crazy requirements that we need to meet along with
- Faster Delivery . Lack of resources. Frequent feature request. Experimental features. And off-course, technical debt.  we have two codebases for two platforms (Android, iOS) written in Objective-C, Java and partially(new features) Kotlin and Swift.</description>
+      <description>Update We already rewrote our app, and it&amp;rsquo;s the best idea. We develope new features once and ship everywhere, and our bug fixing and testing effort reduced in a great number. We dont have to fix different bugs on different places and same goes for testing efforts as well.
+The Simple answer is to make our life easier, for details keep reading!
+I work at a start-up. And like any other start-up, it has that typical start-up workload and crazy requirements that we need to meet along with</description>
     </item>
     
     <item>

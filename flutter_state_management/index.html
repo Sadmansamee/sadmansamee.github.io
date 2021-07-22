@@ -387,6 +387,7 @@
 <p><a href="https://flutter.dev/docs/development/data-and-backend/state-mgmt/options">List of state management approaches</a></p>
 <ul>
 <li>BLoc</li>
+<li>Riverpod</li>
 <li>Provider</li>
 <li>Redux</li>
 <li>Mobx</li>
@@ -396,6 +397,8 @@
 <p>The main advantage of the stream is that each StreamBuilder listens to a stream, and only update when that stream changes. Therefore the stream solved the problem of setState, and achieved clean reactive binding between back and frontend.</p>
 <p>One of the BLoC implementations uses pure reactive programming in the backend with the help of <a href="https://pub.dev/packages/rxdart">RxDart</a>, though, both its advantage and disadvantage are <a href="https://pub.dev/packages/rxdart">RxDart</a>, as your entire backend is programmed “stream fully”. The pure BLoC is very flexible, you can strictly implement event_stream →BLoC →state_out, you can also value_stream →BLoC →value_stream_out</p>
 <p>Another popular implementation is the <a href="https://bloclibrary.dev/#/">flutter_bloc</a> package, which maps the event to state, and your backend is not strictly speaking filled with the stream. (personally, I think its an entirely new architecture that has redux-ish event-&gt;state for state management, and MVVM-ish for app structure, BLoC-ish using stream and stream builder to bind the state to UI).</p>
+<h3 id="riverpod">Riverpod</h3>
+<p><a href="https://pub.dev/packages/riverpod">Riverpod</a> is a rewrite version of Provider, idea is almost same but with lots of benifits. Currently I prefer it more than Bloc or Provider, those who are using provider they should consider moving to Riverpod, instead of Provider.</p>
 <h3 id="provider">Provider</h3>
 <p><a href="https://pub.dev/packages/provider">Provider package</a> has two huge part, dependency injection, and various value consumption. For example, you can use Provider to inject your BLOC into UI, and simply using a stateless widget. For example, the <a href="https://bloclibrary.dev/#/">flutter_bloc</a> package has adopted Provider into its highly customized bloc_providers.</p>
 <p>For most people saying Provider, often means using foundation: ChangeNotifier as a mean of state management. And using the <a href="https://pub.dev/documentation/provider/latest/provider/ChangeNotifierProvider-class.html">Provider.ChangeNotifierProvider</a> to inject and binding to the UI. Thus MVC, MVVM are both very good architectures. It is indeed simple, however, ChangeNotifier has a serious problem, say you have class A extends ChangeNotifier. And this class A has three state variables, a, b, c. Let’s assume in your current page you have 5 elements/widgets listening to classA, then whenever any of a, b, c notify changes, all your 5 elements need to update. Effectively, your UI is reactive to the ChangeNotifier class, instead of a member of ChangeNotifier class. Ofc, you can split it as small as possible, some waste in UI update is inevitable. There was a proposal in dart issues that suggests spin-out the ValueNotifier from ChangeNotifier, but it’s long-buried anyway.</p>
